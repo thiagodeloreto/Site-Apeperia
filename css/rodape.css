@@ -9,7 +9,7 @@
 }
 
 .rodape__logo{
-    padding: 1.2rem 0 1.8rem 0;
+    padding: 1.2rem 0 1.8rem 2.2rem;
 }
 
 .rodape__midias{
@@ -35,5 +35,20 @@
 .rodape__link{
     display: inline-block;
     margin: 0 .5rem .7rem
+}
+
+@media screen and (min-width:1024px) {
+    .divisao__footer-1{
+        display: flex;
+        justify-content: space-between;
+        width: 100vw;
+    }
+    .divisao__footer-2{
+        display: flex;
+        justify-content: start;
+        margin-top: 1rem;
+        padding-left: 3.5rem;
+        width: 100vw;
+    }
 }
 
