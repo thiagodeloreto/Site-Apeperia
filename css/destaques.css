@@ -1,0 +1,48 @@
+.destaques {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--azul-claro);
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+
+}
+
+.destaques_titulo{
+    color: var(--cinza-escuro);
+    font-size: 1.7rem;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    margin-bottom: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.destaques_painel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.destaque_imagem{
+    width: 100vw;
+    max-width: 630px;
+    margin-bottom: .7rem;
+    box-shadow: 0 2px 10px 5px #00000020;
+}
+
+.destaques_texto{
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1.6rem;
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+}
+
+.destaque_botao{
+    color: var(--vermelho-forte);
+    border-color: var(--vermelho-forte);
+    margin: 0 auto;
+
+}

@@ -1,0 +1,29 @@
+.contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.contato__titulo{
+    color: var(--cinza-escuro);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.3rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contato__texto{
+    line-height: normal;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.contato__botao{
+    border-color: var(--cinza-escuro);
+    margin-bottom: 2rem;
+    color: var(--cinza-escuro);
+}
